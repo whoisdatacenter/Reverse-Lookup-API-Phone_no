@@ -1,1 +1,12 @@
 
+// Swift
+import Foundation
+
+let apiKey = "place_your_api_key_here"
+let phoneNumber = "1234567890" // Replace with the phone number you want to look up
+let apiUrl = URL(string: "https://api.whoisdatacenter.com/v1/search?apikey=\(apiKey)&phone=\(phoneNumber)")!
+
+let data = try! Data(contentsOf: apiUrl)
+let result = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+
+print(result)
