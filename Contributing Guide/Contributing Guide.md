@@ -1,5 +1,5 @@
 **Contributing to the Domain-Reverse-Lookup-API Project**
-Thank you for your interest in contributing to our Domain API project! This project aims to create a comprehensive and accessible list of domains available through our API. Contributions from the community are essential to keep our database rich, current, and useful for everyone.
+Thank you for your interest in contributing to our Reverse-Lookup-API-Phone_no project! This project aims to create a comprehensive and accessible list of phone no of domains available through our API. Contributions from the community are essential to keep our database rich, current, and useful for everyone.
 
 **How to Contribute**
 Familiarize Yourself with the Project: Before contributing, please take some time to go through the existing list of domains in our repository. This will give you an idea of what has already been added and what might still be needed.
