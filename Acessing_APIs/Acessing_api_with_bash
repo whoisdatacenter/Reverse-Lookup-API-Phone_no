@@ -1,0 +1,8 @@
+#!/bin/bash
+
+api_key='place_your_api_key_here'
+phone_number='+1234567890' # Replace with the phone number you want to look up
+api_url="https://api.whoisdatacenter.com/v1/phone?apiKey=${api_key}&phone=${phone_number}"
+
+response=$(curl -s $api_url)
+echo $response
