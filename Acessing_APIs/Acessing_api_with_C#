@@ -1,0 +1,17 @@
+// C#
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+class Program {
+static async Task Main() {
+string apiKey = "place_your_api_key_here";
+string phoneNumber = "1234567890"; // Replace with the phone number you want to look up
+string apiUrl = $"https://api.whoisdatacenter.com/v1/search?apikey={apiKey}&phone={phoneNumber}";
+
+using (HttpClient client = new HttpClient()) {
+string response = await client.GetStringAsync(apiUrl);
+Console.WriteLine(response);
+}
+}
+}
