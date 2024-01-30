@@ -1,0 +1,12 @@
+<?php
+
+$apiKey = 'place_your_api_key_here';
+$phoneNumber = '1234567890'; // Replace with the phone number you want to look up
+$apiUrl = " https://api.whoisdatacenter.com/v1/search?apikey={$apiKey}&phone={$phoneNumber}";
+
+$response = file_get_contents($apiUrl);
+$data = json_decode($response, true);
+print_r($data);
+
+?>
+
