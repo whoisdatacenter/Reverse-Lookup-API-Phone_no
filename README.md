@@ -25,7 +25,7 @@ Welcome to the Domain Information API repository! This API offers comprehensive 
     <br />
     <a href="Contributing/contribute.md">Contributing Guide</a> •
     <a href="Acessing_api/Api_URL.md">API for this project</a> •
-    <a href="Acessing_api">Acessing_APIs</a> •
+    <a href="Acessing_api">Acessing_APIs in different languages</a> •
     <a href="License.md">License</a> •
     <a href="Output/output.txt">Output</a> •
     <br />
