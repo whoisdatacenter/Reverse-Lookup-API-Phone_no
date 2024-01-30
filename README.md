@@ -23,7 +23,7 @@ Welcome to the Domain Information API repository! This API offers comprehensive 
 <div >
     <sub>The Project</sub>
     <br />
-    <a href="Contributing/Contributing Guide.md">Contributing Guide</a> •
+    <a href="Contributing Guide/Contributing Guide.md">Contributing Guide</a> •
     <a href="Acessing_APIs">Acessing_APIs in different languages</a> •
     <a href="License">License</a> •
     <a href="">Output</a> •
